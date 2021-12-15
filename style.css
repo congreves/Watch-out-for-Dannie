@@ -1,0 +1,86 @@
+body {
+  background-color: #0f0f13;
+  margin: 0px;
+  font-family: "Roboto Mono";
+  margin-left: 10em;
+  margin-right: 10em;
+  box-sizing: border-box;
+}
+h2 {
+  font-size: 2rem;
+  color: #e5ff00;
+}
+h3 {
+  font-size: 1.5rem;
+  color: #e5ff00;
+}
+p {
+  font-size: 1rem;
+  color: #fafaf8;
+}
+.content {
+  display: inline-flex;
+  padding-bottom: 1.5em;
+}
+.header {
+  padding: 40px;
+  background-color: #fafafa96;
+  text-align: center;
+}
+.title-row {
+  margin-top: 42px;
+  margin-bottom: 21px;
+}
+.instructions_row {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.door-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  width: 70%;
+}
+.door-frame {
+  cursor: pointer;
+  padding: 10px;
+}
+.bottom_button {
+  display: flex;
+}
+.start-row {
+  display: block;
+  padding: 0.5em;
+  background-color: #9ace8600;
+  border: solid #e5ff00;
+  font-size: 18px;
+  color: #e5ff00;
+  border-radius: 20px;
+}
+
+.buttonActive {
+  background-color: #48ff00;
+  color: black;
+  border: none;
+  font-weight: 700;
+}
+
+.buttonActive:hover {
+  background-color: #e5ff00;
+  transform: scale(1.1);
+}
+
+.buttonLoose {
+  background-color: #ff0000;
+  color: black;
+  border: none;
+  font-weight: 700;
+}
+
+.buttonLoose:hover {
+  background-color: #e5ff00;
+  transform: scale(1.1);
+}
